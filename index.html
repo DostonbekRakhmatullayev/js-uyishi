@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head> 
+<body>
+    
+  <div class="container">
+    <form id="form" class="p-5">
+      <div class="d-flex">
+        <h3 class="me-lg-5 text-success">O'qishdi tanlag</h3>
+        <select class="select">
+          <option value="" disabled selected>Chooge</option>
+          <option value="tdtu">TDTU</option>
+          <option value="milliy">Milliy</option>
+          <option value="moliya">Moliya</option>
+        </select>
+      </div>  
+      <div class="mt-sm-5">
+        <label id="answer" for="number">Baldi kiriting</label>
+        <input  type="number" id="number">
+        <div>
+          <button type="submit" class="btn-run mt-5 border-0">Click</button>  
+          <output class="text-run"></output>
+        </div>
+      </div>  
+    </form>
+  </div>
+  
+  
+  <script src="./js/main.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
